@@ -1,0 +1,172 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+
+/* LANDING */
+
+#landing {
+    background: url('../images/image 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+#landing .header {
+    margin-top: 200px;
+}
+
+#landing .header, .content p, .button {
+    margin-left: 80px;
+}
+
+.button button {
+    border-radius:0;
+    background-color: darkorange ;
+    color: white;
+}
+
+
+
+/* INTRO */
+
+#intro {
+    margin-top: 100px;
+}
+
+
+/* AGENT */
+#agent {
+    margin-top: 50px;
+    /* height: 100vh; */
+}
+
+#agent h1 {
+    margin-bottom: 50px;
+}
+
+#agent .image5 {
+    margin-left: 40px;
+}
+
+#agent .image7 {
+    margin-left: 80px;
+}
+
+#agent .image8 {
+    margin-left: 80px;
+}
+
+#agentMobile{
+    visibility: hidden;
+}
+
+
+
+/* TABLET VIEW */
+
+@media all and (max-width: 1024px) {
+    #landing {
+      background-size: cover;
+      height: 40vh;
+}
+
+    #landing .header {
+        margin-top: 50px;
+    }
+
+     #landing .header, .content p, .button {
+        margin-left: 0;
+    }
+
+    #agent img {
+        width: 130%;
+    }
+
+    #agent .image5 {
+    margin-left:20px;
+}
+
+    #agent .image7 {
+        margin-left: 50px;
+    }
+
+    #agent .image8 {
+        margin-left: 50px;
+    }
+
+    #agentMobile{
+    visibility: hidden;
+    }
+}
+
+
+/* MOBILE VIEW */
+@media all and (max-width: 500px) {
+    #landing {
+        background: url('../images/image 6.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+}
+    #landing .header {
+        margin-top: 250px;
+    }
+
+     #landing .header, .content p, .button {
+        margin-left: 0;
+    }
+
+    .button button {
+        width: 100%;
+}
+
+#intro #svg-1 svg{
+    position: absolute;
+    left: 0.7%;
+    right: 0.7%;
+    top: 0.7%;
+    bottom: 0.78%;
+
+}
+
+#intro #svg-1 h3 {
+    margin-left: 50px;
+}
+
+#intro #heart svg{
+    position: absolute;
+    left: 4.69%;
+    right: 4.73%;
+    top: 4.69%;
+    bottom: 4.69%;
+
+}
+
+#intro #heart h3 {
+    margin-left: 50px;
+}
+
+#agent .row {
+    margin-top: -230px ;
+    
+}
+
+#agent #desktopview {
+    visibility: hidden;
+}
+
+#agentMobile{
+    visibility: inherit;
+    }
+}
+
+
