@@ -71,6 +71,111 @@ html {
 
 
 
+/* gettingStarted */
+
+#gettingStarted{
+    margin-top: -500px;
+}
+
+.circle {
+/* position: absolute; */
+border-radius: 100%;
+color: white;
+width: 40px;
+height: 40px;
+left: 749px;
+top: 2013px;
+background: #E86225;
+}
+
+#gettingStarted hr {
+    /* position: absolute; */
+    width: 75px;
+    height: 0px;
+    margin-top: 28px;
+    margin-left: -25px;
+    border: 6px solid #E86225;
+    transform: rotate(-90deg);
+}
+
+#gettingStarted h3 {
+    margin-left: 30px;
+}
+
+#gettingStarted p {
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+#gettingStarted .lastRow {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#gettingStarted button {
+         color: white;
+         background-color: darkorange;
+     }
+
+
+     /* Transaction */
+
+     #transaction {
+         margin-top: 80px;
+     }
+
+
+    #transaction #secondrow{
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+    #transaction .text{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .lastrow h1{
+        margin-top: 35px;
+    }
+
+
+    /* About */
+
+    #about {
+        margin-top: 100px;
+    }
+
+    #image img {
+        width: 100%;
+    }
+
+    #about .text {
+        color: darkorange;
+    }
+
+     #about h1 {
+        margin-top: 50px;
+    }
+
+    #video img{
+        margin-top:-300px;
+        width: 70%;
+        margin-left: 250px;
+    }
+
+    #about p {
+        margin-top: -200px;
+        margin-left: 70px;
+    }
+
+    #about h6{
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+
+
 /* TABLET VIEW */
 
 @media all and (max-width: 1024px) {
@@ -106,7 +211,44 @@ html {
     #agentMobile{
     visibility: hidden;
     }
+
+    #gettingStarted {
+        margin-top: -900px;
+    }
+
+    #gettingStarted h3{
+        margin-top: -50px;
+        margin-left: 50px;   
+    }
+
+    #gettingStarted hr {
+        /* margin-top: 35px; */
+        width: 105px;
+        margin-left: -40px;
+    }
+
+    #gettingStarted .firsth3 {
+        margin-top: 0px;
+        margin-left: 10px;  
+    }
+
+     #video img{
+        margin-top:-200px;
+        width: 70%;
+        margin-left: 150px;
+    }
+
+    #about p {
+        margin-top: -100px;
+        margin-left: 70px;
+    }
+
+    #about h6{
+        margin-left: 70px;
+    }
+
 }
+
 
 
 /* MOBILE VIEW */
@@ -167,6 +309,54 @@ html {
 #agentMobile{
     visibility: inherit;
     }
-}
 
+    #gettingStarted {
+        margin-top: 100px;
+    }
+
+     #gettingStarted .secondh3 {
+        margin-top: 0px;
+        margin-left: 10px;  
+    }
+
+     #gettingStarted .text-muted {
+        margin-bottom: 30px;
+     }
+
+     #gettingStarted button {
+         width: 100%;
+         color: white;
+         background-color: darkorange;
+     }
+
+     #secondrow svg{
+         margin-left: -130px;
+         margin-bottom: -150px;
+     }
+
+
+     #image img {
+        visibility: hidden;
+    }
+
+     #video img{
+        margin-top:-900px;
+        width:120% ;
+        margin-left: 35px;
+    }
+  
+    #about h1 {
+        margin-left: 40px;
+        margin-bottom: 50px;
+    }
+
+    #about .text {
+        visibility: hidden;
+    }
+
+    /* #about p {
+        margin-top: 2px;
+    } */
+
+} 
 

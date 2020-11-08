@@ -16,10 +16,10 @@ const AgentMobile = () => {
                             <Nav.Link id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">For Buyers</Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
-                            <Nav.Link id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" eventKey="#pills-profile">For Sellers</Nav.Link>
+                            <Nav.Link eventKey="#pills-profile" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" >For Sellers</Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
-                            <Nav.Link id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false" eventKey="#pills-contact">For Landlord</Nav.Link>
+                            <Nav.Link eventKey="#pills-contact" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false" >For Landlord</Nav.Link>
                         </Nav.Item>
                     </Nav>
         
