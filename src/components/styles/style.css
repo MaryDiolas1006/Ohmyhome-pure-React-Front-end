@@ -175,6 +175,59 @@ background: #E86225;
     }
 
 
+    /* Assistance */
+    #assistance {
+        margin-top: 100px;
+    }
+
+     #assistance h1 {
+         margin-top: 100px;
+     }
+
+     #assistance p {
+         margin-top: 20px;
+     }
+
+      #assistance button {
+        background-color: darkorange;
+        color: white;
+     }
+
+     #assistance img {
+         border-radius: 100%;
+     }
+
+     #guide {
+         margin-top: 200px;
+         margin-bottom: 100px;
+     }
+
+     #guide button {
+        border: 2px solid darkorange;
+        color: darkorange;
+     }
+
+     #col2 .row1 svg  {
+        margin-top: 20px;
+        margin-bottom: 70px;
+     }
+
+     #col2 .row3 svg {
+          margin-top: 50px;
+     }
+
+     #guide h3 {
+         margin-top: 20px;
+         margin-left: -100px;
+     }
+
+     
+     #col4 p {
+         margin-top: 80px;
+         margin-left: -150px;
+     }
+
+
 
 /* TABLET VIEW */
 
@@ -245,6 +298,10 @@ background: #E86225;
 
     #about h6{
         margin-left: 70px;
+    }
+
+    #guide h3 {
+        margin-left: 10px;
     }
 
 }
@@ -354,9 +411,29 @@ background: #E86225;
         visibility: hidden;
     }
 
-    /* #about p {
-        margin-top: 2px;
-    } */
+#assistance button{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#col4 .row1 {
+    margin-top: -300px;
+    margin-left: 70px;
+}
+
+#col4 .row2 {
+    margin-left: 70px;
+}
+
+#col4 .row3 {
+    margin-left: 70px;
+}
+
+
+#guide button {
+    margin-bottom: 50px;
+}
+
 
 } 
 

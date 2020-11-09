@@ -5,6 +5,8 @@ import Agents from './partials/Agents';
 import GettingStarted from './partials/GettingStarted';
 import Transaction from './partials/Transaction';
 import About from './partials/About';
+import Assistance from './partials/Assistance';
+import Guide from './partials/Guide';
 import './styles/style.css';
 
 const HomePage = () => {
@@ -48,8 +50,20 @@ const HomePage = () => {
             <div className="container" id="about">
                 <About />
             </div>
-    
-    
+
+        {/* Assistance */}
+            <div className="container" id="assistance">
+                <div className="row">
+                    <Assistance />
+                </div>
+            </div>
+
+        {/* Guide */}
+            <div className="container" id="guide">
+                <div className="row">
+                    <Guide />
+                </div>
+            </div>
 
         </>
     );
